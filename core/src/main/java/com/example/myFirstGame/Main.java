@@ -40,7 +40,7 @@ public class Main extends ApplicationAdapter {
     boolean buttonPressed = false;
 
     @Override
-    public void create() {
+    public void create() { // Тут короче конструктор который включает штуки
         camera = new OrthographicCamera();
         viewport = new FitViewport(1536, 1024, camera);
         viewport.apply();
